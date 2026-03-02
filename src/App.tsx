@@ -163,6 +163,7 @@ function App() {
 
         {/* SIDE PANEL */}
         <div className="flex flex-col justify-between">
+          {/* header */}
           <div>
             <h1 className="text-3xl font-bold mb-6 tracking-widest">
               TETRIS
@@ -198,6 +199,7 @@ function App() {
               </div>
             </div>
           </div>
+          {/* bottom */}
 
           <p className="text-xs text-neutral-500 mt-6">
             ← → Move | ↑ Rotate | ↓ Soft Drop | Space Hard Drop
